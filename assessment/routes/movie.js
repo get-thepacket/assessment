@@ -58,6 +58,7 @@ function search(nameKey, myArray) {
   }
 }
 
+//this isnt working correctly
 router.patch("/purchaseTickets/:moviename&:timing", async (req, res) => {
   try {
     var movie = req.params.moviename.toLowerCase();
